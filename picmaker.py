@@ -2,7 +2,7 @@ from math import dist
 dims=500
 norm = dist([0,0],[dims/2,dims/2])**2/2
 
-file = open("pic.ppm",'w')
+file = open("pic.ppm", 'w')
 file.write('P3 ' + str(dims)+' '+str(dims)+' 255\n')
 for i in range(int(dims)):
     for j in range(int(dims)):
